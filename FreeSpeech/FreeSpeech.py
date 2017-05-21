@@ -29,6 +29,6 @@ def generateSpeech(text, language = "en", speed = 100,
 # main function
 if __name__ == "__main__":
     text = generateText(10)
-    print text
+    print(text)
     saveText(10)
     generateSpeech(text, "en")
